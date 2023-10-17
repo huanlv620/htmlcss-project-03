@@ -112,7 +112,7 @@ a {
     align-items: center;
 }
 
-.action__login,
+.header-action__login,
 .navbar__link {
     padding: 4px 21px;
     font-weight: 300;
@@ -138,8 +138,16 @@ a {
     background-color: #fff;
     border-radius: 50%;
 }
+.header-action {
+    display: flex;
+    align-items: center;
+}
 
-.action__signup {
+.header-action__signup {
     --height: 44px;
     min-width: 104px;
+}
+
+.header-action__login {
+    margin-right: 7px;
 }
